@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="grid grid-cols-5 h-screen w-screen">
+        <section class="flex flex-col gap-40 border-4 min-w-[994px] mx-auto">
+            <div>
+                <h1>My Book shelf</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/search">Search</a></li>
+                    <li><a href="/my_shelf">My shelf</a></li>
+                    <li><a href="/favourites">Favourites</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/Support">Support</a></li>
+                    <li><a href="/terms">terms & Conditions</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="col-span-4 border-4 grid grid-rows-7 ">
+            <div>
+                <nav>
+                    <div>
+                        <input type="text" placeholder="search" class="p-6 border-2 rounded-full">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </nav>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
